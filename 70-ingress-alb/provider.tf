@@ -8,7 +8,7 @@ terraform {
 
   backend "s3" {
     bucket = "sreeaws-remote-state-dev"
-    key    = "expense-dev-web-alb" # Should be unique
+    key    = "expense-dev-alb" # Should be unique
     region = "us-east-1"
     dynamodb_table = "sreeaws-remote-state-dev"
   }
